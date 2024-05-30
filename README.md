@@ -10,6 +10,12 @@ This project is a web scraper and Q&A assistant that uses OpenAI's API to answer
     cd website-qna-assistant
     ```
 
+- Setup a virtual env
+    ```
+    python3 -m venv env
+    source env/bin/activate
+    ```
+
 - Install the Required Packages
 
     ```
