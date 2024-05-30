@@ -1,10 +1,8 @@
 import requests
 import os
 import dotenv
-from flask import request, Flask, jsonify
 from bs4 import BeautifulSoup
 from openai import OpenAI, OpenAIError
-from flask_cors import CORS, cross_origin
 
 dotenv.load_dotenv()
 
